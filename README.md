@@ -99,8 +99,8 @@ swagger
 <img width="1900" height="1018" alt="image" src="https://github.com/user-attachments/assets/3503084e-160e-495a-a991-30de4a6f5fff" />
 
 post в телеграмм
-<img width="791" height="999" alt="image" src="https://github.com/user-attachments/assets/f1a56105-81a1-46d7-967b-be8572fd2ff4" />
+<img width="791" height="999" alt="image" src="https://github.com/user-attachments/assets/adb1c858-0d23-49e8-b273-c57ad36baaf9" />
 
 база
-<img width="1916" height="1023" alt="image" src="https://github.com/user-attachments/assets/93ac3392-a334-4bae-bdf8-c8f16e79de1d" />
+<img width="1917" height="992" alt="image" src="https://github.com/user-attachments/assets/81c4f33f-7f5d-4a08-a472-ed8a191202f6" />
 
