@@ -50,8 +50,6 @@ NewsBot — это backend-приложение для автоматическ�
 
 │ ├── tasks.py # Celery-задачи
 
-│ ├── services/ # Бизнес-логика
-
 │ ├── redis_client.py # Redis client
 
 │ ├── telegram/ # Telegram publisher
@@ -67,8 +65,6 @@ NewsBot — это backend-приложение для автоматическ�
 ├── requirements-celery.txt
 
 ├── requirements-api.txt
-
-├── .env
 
 └── README.md
 
