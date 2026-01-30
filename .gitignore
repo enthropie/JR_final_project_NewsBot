@@ -1,0 +1,76 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# ======================
+# Environment variables
+# ======================
+.env
+.env.*
+!.env.example
+
+# ======================
+# Logs
+# ======================
+*.log
+logs/
+*.out
+
+# ======================
+# Databases
+# ======================
+*.sqlite3
+*.db
+
+# ======================
+# Celery
+# ======================
+celerybeat-schedule
+celerybeat.pid
+
+# ======================
+# Redis dump
+# ======================
+dump.rdb
+
+# ======================
+# Docker
+# ======================
+*.tar
+.dockerignore
+
+# ======================
+# IDEs / Editors
+# ======================
+.vscode/
+.idea/
+*.iml
+
+# ======================
+# OS files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Temporary / junk files
+# ======================
+*.tmp
+*.temp
+*.swp
+*.bak
+*.old
+1.txt
