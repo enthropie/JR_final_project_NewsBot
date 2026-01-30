@@ -43,20 +43,35 @@ NewsBot — это backend-приложение для автоматическ�
 
 .
 ├── app/
+
 │ ├── api.py # FastAPI endpoints
+
 │ ├── celery_app.py # Инициализация Celery
+
 │ ├── tasks.py # Celery-задачи
+
 │ ├── services/ # Бизнес-логика
+
 │ ├── redis_client.py # Redis client
+
 │ ├── telegram/ # Telegram publisher
+
 │ ├── news_parser/ # логика парсинга источников
+
 │ └── ai/ # логика обработки текста с помощью ИИ
+
 ├── docker-compose.yml
+
 ├── Dockerfile
+
 ├── requirements-celery.txt
+
 ├── requirements-api.txt
+
 ├── .env
+
 └── README.md
+
 
 ## Запуск:
 
