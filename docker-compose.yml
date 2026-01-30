@@ -1,0 +1,27 @@
+services:
+  redis:
+    image: redis:7-alpine
+    container_name: redis
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+
+  celery_worker:
+    build: .
+    container_name: celery_worker
+    command: celery -A app.celery_app worker -l info
+    env_file:
+      - app/.env
+    depends_on:
+      - redis
+    restart: unless-stopped
+
+  celery_beat:
+    build: .
+    container_name: celery_beat
+    command: celery -A app.celery_app beat -l info
+    env_file:
+      - app/.env
+    depends_on:
+      - redis
+    restart: unless-stopped

@@ -1,0 +1,29 @@
+# виртуальные окружения
+.venv
+venv
+
+# git
+.git
+.gitignore
+
+# python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.idea
+.vscode
+
+# env
+.env
+
+# tests / docs / data
+tests
+docs
+data
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
