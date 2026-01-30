@@ -92,11 +92,14 @@ docker compose up
 Скриншоты работы приложения:
 
 swagger
+
 <img width="1900" height="1018" alt="image" src="https://github.com/user-attachments/assets/3503084e-160e-495a-a991-30de4a6f5fff" />
 
 post в телеграмм
+
 <img width="791" height="999" alt="image" src="https://github.com/user-attachments/assets/adb1c858-0d23-49e8-b273-c57ad36baaf9" />
 
 база
+
 <img width="1917" height="992" alt="image" src="https://github.com/user-attachments/assets/81c4f33f-7f5d-4a08-a472-ed8a191202f6" />
 
